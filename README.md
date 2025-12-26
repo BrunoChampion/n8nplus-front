@@ -71,9 +71,6 @@ Create a `.env.local` file in the root of the project:
 ```env
 # Backend API URL
 NEXT_PUBLIC_API_URL=http://localhost:3001
-
-# Optional: Gemini API Key (can also be configured via the UI if supported)
-NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
 ```
 
 > ⚠️ `NEXT_PUBLIC_API_URL` **must match the URL where the backend is running**, otherwise the app won’t be able to fetch or update workflows.
